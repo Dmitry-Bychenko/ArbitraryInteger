@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Numerics;
 using System.Security.Cryptography;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace ArbitraryInteger {
 
@@ -32,7 +29,7 @@ namespace ArbitraryInteger {
         seed = BitConverter.ToInt32(seedData, 0);
       }
 
-      return new Random(seed); 
+      return new Random(seed);
     });
 
     // Random generator
